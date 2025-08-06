@@ -3,6 +3,7 @@
 A comprehensive expense tracking application built with React and AWS serverless architecture, featuring real-time analytics, predictions, and secure user authentication.
 
 ## 🚀 Live Demo
+![Video](./screenshots/ExpenseTracker.mp4)
 
 **Authentication**: Use your AWS Cognito credentials for secure login/signup
 
