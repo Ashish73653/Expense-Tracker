@@ -4,6 +4,7 @@ A comprehensive expense tracking application built with React and AWS serverless
 
 ## 🚀 Live Demo
 
+![Video](./screenshots/ExpenseTracker-ezgif.com-video-to-gif-converter.gif)
 **Authentication**: Use your AWS Cognito credentials for secure login/signup
 
 - Real user isolation and data security
