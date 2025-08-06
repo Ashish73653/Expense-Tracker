@@ -11,6 +11,167 @@ A comprehensive expense tracking application built with React and AWS serverless
 - Hosted sign-up with email verification
 - **🔮 AI Predictions available immediately** - No waiting period required!
 
+## 📸 Screenshots & Demo
+
+### 🖥️ **Application UI**
+
+#### **Authentication & Login**
+
+![Login Page](./screenshots/ui/login-page.png)
+_Secure AWS Cognito authentication with email/password_
+
+![Sign Up Flow](./screenshots/ui/signup-flow.png)
+_Hosted UI sign-up with email verification_
+
+#### **Dashboard Analytics (7 Tabs)**
+
+![Overview Tab](./screenshots/ui/overview-tab.png)
+_📊 Overview: Key metrics, summary cards, and trend visualization_
+
+![Analytics Tab](./screenshots/ui/analytics-tab.png)
+_📈 Analytics: Interactive bar charts and detailed spending analysis_
+
+![Categories Tab](./screenshots/ui/categories-tab.png)
+_🏷️ Categories: Spending breakdown by category with percentages_
+
+![AI Predictions Tab](./screenshots/ui/ai-predictions-tab.png)
+_🔮 AI Predictions: Multi-model forecasting with seasonal adjustments_
+
+![Budget Tracker Tab](./screenshots/ui/budget-tracker-tab.png)
+_💰 Budget Tracker: Smart budget suggestions and category tracking_
+
+![Reports Tab](./screenshots/ui/reports-tab.png)
+_📄 Reports: Comprehensive reports with export functionality (PDF, Excel, Charts)_
+
+![Smart Insights Tab](./screenshots/ui/smart-insights-tab.png)
+_💡 Smart Insights: AI-powered recommendations and spending pattern analysis_
+
+#### **Expense Management**
+
+![Add Expense Form](./screenshots/ui/add-expense-form.png)
+_Add new expenses with category selection and validation_
+
+![Expenses List](./screenshots/ui/expenses-list.png)
+_View, edit, and delete expenses with responsive design_
+
+![Mobile Responsive](./screenshots/ui/mobile-responsive.png)
+_Fully responsive design optimized for mobile devices_
+
+#### **Export Features**
+
+![PDF Export Sample](./screenshots/ui/pdf-export-sample.png)
+_Professional PDF reports with expense summaries and breakdowns_
+
+![Excel Export Sample](./screenshots/ui/excel-export-sample.png)
+_Multi-sheet Excel workbooks with detailed analytics_
+
+![Chart Export Sample](./screenshots/ui/chart-export-sample.png)
+_Visual PDF reports with charts and graphs_
+
+### ☁️ **AWS Infrastructure**
+
+#### **Cognito User Pool**
+
+![Cognito User Pool](./screenshots/aws/cognito-user-pool.png)
+_AWS Cognito User Pool configuration (eu-north-1_Bq4EEZx8x)_
+
+![Cognito Users](./screenshots/aws/cognito-users.png)
+_User management and authentication status_
+
+![Cognito Hosted UI](./screenshots/aws/cognito-hosted-ui.png)
+_Customized hosted UI for sign-up and sign-in_
+
+#### **API Gateway**
+
+![API Gateway Overview](./screenshots/aws/api-gateway-overview.png)
+_RESTful API endpoints with JWT authorization_
+
+![API Gateway Methods](./screenshots/aws/api-gateway-methods.png)
+_CRUD operations: GET, POST, PUT, DELETE for expenses_
+
+![API Gateway Authorizers](./screenshots/aws/api-gateway-authorizers.png)
+_JWT authorizer configuration for secure access_
+
+![API Gateway CORS](./screenshots/aws/api-gateway-cors.png)
+_CORS configuration for cross-origin requests_
+
+#### **Lambda Functions**
+
+![Lambda Functions List](./screenshots/aws/lambda-functions-list.png)
+_Serverless functions for expense operations_
+
+![Lambda Function Code](./screenshots/aws/lambda-function-code.png)
+_Node.js 18.x runtime with business logic_
+
+![Lambda Environment Variables](./screenshots/aws/lambda-environment-vars.png)
+_Environment-based configuration and DynamoDB table names_
+
+![Lambda Monitoring](./screenshots/aws/lambda-monitoring.png)
+_CloudWatch metrics and performance monitoring_
+
+#### **DynamoDB**
+
+![DynamoDB Table](./screenshots/aws/dynamodb-table.png)
+_Expenses table with user data isolation_
+
+![DynamoDB Items](./screenshots/aws/dynamodb-items.png)
+_Sample expense records with user_id partition key_
+
+![DynamoDB Metrics](./screenshots/aws/dynamodb-metrics.png)
+_Database performance and auto-scaling configuration_
+
+![DynamoDB Indexes](./screenshots/aws/dynamodb-indexes.png)
+_Global Secondary Indexes for efficient queries_
+
+#### **CloudWatch Monitoring**
+
+![CloudWatch Dashboard](./screenshots/aws/cloudwatch-dashboard.png)
+_Comprehensive monitoring dashboard for all services_
+
+![CloudWatch Logs](./screenshots/aws/cloudwatch-logs.png)
+_Centralized logging for debugging and monitoring_
+
+![CloudWatch Alarms](./screenshots/aws/cloudwatch-alarms.png)
+_Automated alerts for error tracking and performance_
+
+#### **IAM Roles & Security**
+
+![IAM Roles](./screenshots/aws/iam-roles.png)
+_Secure service permissions and role-based access_
+
+![IAM Policies](./screenshots/aws/iam-policies.png)
+_Fine-grained permissions for AWS services_
+
+#### **S3 Static Hosting** (Optional)
+
+![S3 Bucket Configuration](./screenshots/aws/s3-bucket-config.png)
+_S3 bucket configured for static website hosting_
+
+![CloudFront Distribution](./screenshots/aws/cloudfront-distribution.png)
+_Global CDN with HTTPS and custom error pages_
+
+### 📊 **Performance Metrics**
+
+![API Response Times](./screenshots/metrics/api-response-times.png)
+_Sub-200ms API response times across all endpoints_
+
+![Database Performance](./screenshots/metrics/database-performance.png)
+_DynamoDB read/write capacity and latency metrics_
+
+![User Analytics](./screenshots/metrics/user-analytics.png)
+_User engagement and feature usage statistics_
+
+### 🎯 **Development Screenshots**
+
+![VS Code Development](./screenshots/dev/vscode-development.png)
+_Development environment with React, AWS integration_
+
+![Terminal Deployment](./screenshots/dev/terminal-deployment.png)
+_Automated deployment process with PowerShell scripts_
+
+![Testing Process](./screenshots/dev/testing-process.png)
+_Local development and testing workflow_
+
 ## 🏗️ Complete AWS Architecture
 
 ## 🔧 Architecture Diagram
